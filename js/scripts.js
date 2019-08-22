@@ -15,6 +15,7 @@ $(document).ready(function(){
 function encryptor(inputString) {
   var outputString;
   outputString = inputString.replace(/[\?\!\ \.\,]+/g, "");
+  var length = outputString.length
 
 
 
